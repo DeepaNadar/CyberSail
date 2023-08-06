@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/backBtn"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_back"
+            android:text="@string/back"
+            android:maxLines="1"
+            app:iconGravity="top"
+            android:background="?selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/forwardBtn"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_forward"
+            android:text="@string/forward"
+            app:iconGravity="top"
+            android:maxLines="1"
+            android:background="?selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveBtn"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            app:icon="@drawable/sail_save"
+            android:text="@string/save"
+            app:iconGravity="top"
+            android:maxLines="1"
+            android:background="?selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bookmarkBtn"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            app:icon="@drawable/sail_bookmark"
+            android:text="@string/bookmark"
+            android:maxLines="1"
+            app:iconGravity="top"
+            android:background="?selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/desktopBtn"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            app:iconPadding="-0.5dp"
+            app:iconSize="26dp"
+            app:icon="@drawable/sail_laptop"
+            android:text="@string/desktop"
+            android:maxLines="1"
+            app:iconGravity="top"
+            android:background="?selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fullscreenBtn"
+            app:cornerRadius="0dp"
+            android:layout_weight="1"
+            app:icon="@drawable/sail_fullscreen"
+            android:text="@string/fullscreen"
+            app:iconGravity="top"
+            android:maxLines="1"
+            android:background="?selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_blue">#0fffc7</color>
+    <color name="light_purple">#c03aff</color>
+    <color name="light_yellow">#fbc200</color>
+    <color name="light_pink">#ff0871</color>
+    <color name="light_peach">#db9b8a</color>
+
+    <!--custom colors -->
+    <color name="grey">#232323</color>
+    <color name="cool_blue">#0091EA</color>
+    <color name="cool_green">#64dd17</color>
+    <color name="cool_pink">#f50057</color>
+    <color name="yellow">#ffd600</color>
+
+    <integer-array name="myColors">
+        <item>@color/light_blue</item>
+        <item>@color/light_purple</item>
+        <item>@color/light_yellow</item>
+        <item>@color/light_pink</item>
+        <item>@color/light_peach</item>
+    </integer-array>
+
+</resources>

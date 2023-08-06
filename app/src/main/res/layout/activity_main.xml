@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/webIcon"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/sail_search" />
+
+            <EditText
+                android:id="@+id/topSearchBar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/search_et_bg"
+                android:hint="@string/searchEditText"
+                android:paddingHorizontal="5dp"
+                android:singleLine="true" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tabsBtn"
+                android:layout_width="25dp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="12dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="@string/one"
+                android:background="@drawable/tabs_textview_bg"
+                 />
+
+            <ImageButton
+                android:id="@+id/refreshBtn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackground"
+                android:contentDescription="@string/refresh_button"
+                android:src="@drawable/sail_refresh" />
+
+            <ImageButton
+                android:id="@+id/goBtn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackground"
+                android:contentDescription="@string/go_btn"
+                android:src="@drawable/sail_forward" />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleY="0.5"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/myPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/settingsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/settings_btn"
+        android:src="@drawable/sail_settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
