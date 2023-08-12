@@ -288,7 +288,9 @@ class MainActivity : AppCompatActivity() {
                         val dialogB=MaterialAlertDialogBuilder(this)
                             .setTitle("Remove Bookmark")
                             .setMessage("Url:${it.binding.webView.url}")
-                            .setPositiveButton("Remove"){self,_ ->self.dismiss()}
+                            .setPositiveButton("Remove"){self, _ ->
+                                bookmarkList.removeAt(bookmarkIndex)
+                                self.dismiss()}
                             .setNegativeButton("Cancel"){self,_ ->self.dismiss()}
                             .create()
 
