@@ -20,13 +20,13 @@
     - Share Link
 1. **Tabbed Browsing**: CyberSail supports tabbed browsing, enabling you to navigate multiple websites simultaneously.
 ## Screenshots:
-![CyberSail1](https://github.com/DeepaNadar/CyberSail/assets/141585733/653ae2f2-327f-46e9-9305-a2025a67fbe5) ![CyberSail2](https://github.com/DeepaNadar/CyberSail/assets/141585733/3d6c0cca-b498-4421-b475-226a0caafcbd) ![CyberSail3](https://github.com/DeepaNadar/CyberSail/assets/141585733/839cb403-e100-4f41-b21a-8a27911b9047)
-![CyberSail4](https://github.com/DeepaNadar/CyberSail/assets/141585733/61a7bf8a-bc98-4822-bd5d-cc60ea76f61a) ![CyberSail5](https://github.com/DeepaNadar/CyberSail/assets/141585733/01090c89-288d-4ccf-8d7b-4afeb128f0fe)
-![CyberSail6](https://github.com/DeepaNadar/CyberSail/assets/141585733/0dab34fd-c9d5-4ca4-8506-5372acc99172) ![CyberSail7](https://github.com/DeepaNadar/CyberSail/assets/141585733/c58e843d-5518-4bb2-9776-1a23ce85278d)
-![CyberSail8](https://github.com/DeepaNadar/CyberSail/assets/141585733/ad9527d7-c6b1-495d-8904-52fe5e220d25) ![CyberSail9](https://github.com/DeepaNadar/CyberSail/assets/141585733/93ac7a23-0554-42c7-ac83-8b7063ff67ee)
-![CyberSail10](https://github.com/DeepaNadar/CyberSail/assets/141585733/b6df5a4d-3517-45d3-9d00-3bbfc0d8303a) ![CyberSail11](https://github.com/DeepaNadar/CyberSail/assets/141585733/fcefdcd1-e871-437b-babf-36a51c14f73f)
-![CyberSail12](https://github.com/DeepaNadar/CyberSail/assets/141585733/d8a568c2-1cc9-4b17-b6b5-99d9b4d566c3) ![CyberSail13](https://github.com/DeepaNadar/CyberSail/assets/141585733/d1d10ede-5a73-4e25-9cae-c403731e1c71)
-![CyberSail14](https://github.com/DeepaNadar/CyberSail/assets/141585733/3e4beed0-afb2-4df5-bf35-fe2f2d2c2b36)
+![CyberSail1](https://github.com/DeepaNadar/CyberSail/assets/141585733/ffe0826b-af07-49c5-80dd-0714ac5805b7) ![CyberSail2](https://github.com/DeepaNadar/CyberSail/assets/141585733/4fd665f5-e0f4-4214-b7b7-33385a8d9e27)
+![CyberSail3](https://github.com/DeepaNadar/CyberSail/assets/141585733/4aa813fb-f35e-4c17-b509-eb66642067a9) ![CyberSail4](https://github.com/DeepaNadar/CyberSail/assets/141585733/36e1ed6e-cd0a-4c9c-861d-46f6cb074bf4)
+![CyberSail5](https://github.com/DeepaNadar/CyberSail/assets/141585733/12ebb997-b2d8-4353-9720-d508d0b3cc06) ![CyberSail6](https://github.com/DeepaNadar/CyberSail/assets/141585733/5caa3469-9a91-4fb8-a4bb-cd513425e9cf)
+![CyberSail7](https://github.com/DeepaNadar/CyberSail/assets/141585733/4f6bec4b-5b92-44f7-a45c-8c832b1b0513) ![CyberSail8](https://github.com/DeepaNadar/CyberSail/assets/141585733/eb2eb8ca-7e32-4e5a-90d5-bb56bf0fb8e9)
+![CyberSail9](https://github.com/DeepaNadar/CyberSail/assets/141585733/0829bbee-27ca-4120-86b6-1cb53db5da05) ![CyberSail10](https://github.com/DeepaNadar/CyberSail/assets/141585733/16f16902-84f4-4f88-967b-4bea68458ed3)
+![CyberSail11](https://github.com/DeepaNadar/CyberSail/assets/141585733/cbba21cc-1040-400f-bcc1-4cb192cabe58) ![CyberSail12](https://github.com/DeepaNadar/CyberSail/assets/141585733/e8333d1f-7677-4626-ad70-650a6255ad8d)
+![CyberSail13](https://github.com/DeepaNadar/CyberSail/assets/141585733/529aa81b-2377-45e9-b5e9-a050e2c05a9c) ![CyberSail14](https://github.com/DeepaNadar/CyberSail/assets/141585733/1e9d12b1-4e68-4de9-a1c4-a3bf5fc21d03)
 ## Usage:
 CyberSail offers a modern and user-friendly web browsing experience. Navigate, customize, and explore the digital oceans!
 
